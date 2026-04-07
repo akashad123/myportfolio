@@ -1,0 +1,138 @@
+{
+  "experience": [
+    {
+      "role": "Front-End Developer",
+      "company": "Stratagile Pvt Ltd",
+      "duration": "Mar 2024 – Mar 2025",
+      "description": [
+        "Developed a React-based HRMS frontend with reusable components and REST API integration",
+        "Built the frontend of a monitoring dashboard (Zabbix-like) using EJS, HTML, and CSS",
+        "Created backend APIs using Strapi CMS for a Flutter mobile application",
+        "Contributed to a full-stack event management system with React frontend and MySQL integration",
+        "Implemented responsive UI and improved user experience across applications",
+        "Collaborated with team members to debug issues and ensure smooth frontend-backend integration"
+      ]
+    },
+    {
+      "role": "MERN Stack Developer Intern",
+      "company": "Luminar Technolab",
+      "duration": "6 Months Internship",
+      "description": [
+        "Designed and developed responsive web interfaces using HTML, CSS, and JavaScript",
+        "Built dynamic front-end applications using React, Redux, and Context API",
+        "Developed RESTful APIs using Node.js and Express.js",
+        "Implemented full-stack CRUD operations for real-world applications",
+        "Worked on end-to-end mini projects from development to deployment",
+        "Collaborated with team members on frontend development and participated in code reviews"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "title": "Frontend",
+      "items": [
+        "React.js",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Sass"
+      ]
+    },
+    {
+      "title": "Backend",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "Strapi"
+      ]
+    },
+    {
+      "title": "Languages",
+      "items": [
+        "JavaScript (ES6+)",
+        "HTML5",
+        "CSS3"
+      ]
+    },
+    {
+      "title": "Database",
+      "items": [
+        "MongoDB",
+        "MySQL"
+      ]
+    },
+    {
+      "title": "Concepts",
+      "items": [
+        "REST APIs",
+        "Redux",
+        "Authentication",
+        "Performance Optimization",
+        "Component Architecture"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "THINKBOARD",
+      "subtitle": "MERN Notes Application",
+      "description": [
+        "Built full-stack CRUD notes application",
+        "Implemented REST APIs",
+        "Added API rate limiting using Upstash",
+        "Responsive UI using React"
+      ],
+      "tech": ["MongoDB", "Express", "React", "Node"],
+      "github": "https://github.com/akashad123/thinkBoardFrontend",
+      "live": "https://thinkboardfrontend.onrender.com/"
+    },
+    {
+      "title": "GAME LANDING",
+      "subtitle": "Animated Landing Page",
+      "description": [
+        "Modern animated UI design",
+        "Scroll-based GSAP animations",
+        "Reusable React components",
+        "Responsive Tailwind layout"
+      ],
+      "tech": ["React", "GSAP", "Tailwind", "clsx"],
+      "github": "https://github.com/akashad123/game_landing_page",
+      "live": "https://game-landing-page-nu.vercel.app/"
+    },
+    {
+      "title": "COCKTAIL",
+      "subtitle": "Interactive UI Website",
+      "description": [
+        "Animation-driven UI interactions",
+        "Scroll-triggered GSAP effects",
+        "Responsive layouts"
+      ],
+      "tech": ["React", "GSAP", "Tailwind"],
+      "github": "https://github.com/akashad123/gsap_cocktails",
+      "live": "https://gsap-cocktails-lovat-iota.vercel.app/"
+    },
+    {
+      "title": "PORTFOLIO",
+      "subtitle": "Developer Portfolio",
+      "description": [
+        "Personal portfolio website",
+        "Smooth GSAP animations",
+        "Modular React architecture"
+      ],
+      "tech": ["React", "GSAP", "Tailwind"],
+      "github": "https://github.com/akashad123/portfolio",
+      "live": "https://akashad.vercel.app/"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Computer Applications (MCA)",
+      "institution": "Lead College of Management",
+      "duration": "2023 - 2025"
+    },
+    {
+      "degree": "Bachelor of Computer Applications (BCA)",
+      "institution": "University of Calicut",
+      "duration": "2020 - 2023"
+    }
+  ]
+}

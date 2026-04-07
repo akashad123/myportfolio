@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ════════════════════════════════════════════════════════════
+   DESIGN TOKENS — Orange Cinematic Theme
+   ════════════════════════════════════════════════════════════ */
+:root {
+  --text-main:      #E5E7EB;   /* gray-200  — primary body text on dark  */
+  --text-strong:    #FFFFFF;   /* pure white — headings                  */
+  --text-primary:   #F3F4F6;   /* near-white — backward compat           */
+  --text-secondary: #D1D5DB;   /* gray-300  — body copy                  */
+  --text-muted:     #9CA3AF;   /* gray-400  — labels, captions           */
+  --accent:         #F97316;   /* orange-500 — primary brand accent      */
+  --accent-dark:    #EA580C;   /* orange-600 — gradient end              */
+  --bg-primary:     #0A0A0A;   /* near-black — body background           */
+  --bg-surface:     #111111;   /* slightly lifted — card/section bg      */
+  --border:         #1F2937;   /* gray-800  — subtle borders             */
+  
+  /* ── Centralized Orange Theme Hierarchy ──────────────────────────────── */
+  --color-primary:     #F97316;
+  --color-orange-deep: #9A3412;
+  --color-orange-dark: #7C2D12;
+  --color-text-main:   #FFFFFF;
+  --color-text-muted:  #F3F4F6;
+}
+
+/* ════════════════════════════════════════════════════════════
+   UNIVERSAL FONT LOCK
+   Lives outside @layer → beats all Tailwind utilities
+   ════════════════════════════════════════════════════════════ */
+*, *::before, *::after {
+  font-family: 'Inter', sans-serif !important;
+  color: var(--text-main) !important;
+  box-sizing: border-box;
+}
+
+/* ════════════════════════════════════════════════════════════
+   HEADING FONT LOCK — Bebas Neue (cinematic display font)
+   ════════════════════════════════════════════════════════════ */
+h1, h2, h3, h4, h5, h6,
+.display-text {
+  font-family: 'Bebas Neue', sans-serif !important;
+  color: var(--text-strong) !important;
+  letter-spacing: 2px;
+  font-weight: 400;   /* Bebas Neue is single-weight */
+  line-height: 1;
+}
+
+/* ════════════════════════════════════════════════════════════
+   GLOBAL COLOR SYSTEM — dark
+   ════════════════════════════════════════════════════════════ */
+body {
+  background-color: #F97316;   /* orange — hero/About substrate, prevents black bleed */
+  color: var(--text-secondary) !important;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p, span, li, div, a {
+  color: var(--text-secondary) !important;
+}
+
+/* ════════════════════════════════════════════════════════════
+   BASE LAYER
+   ════════════════════════════════════════════════════════════ */
+@layer base {
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ════════════════════════════════════════════════════════════
+   COMPONENT UTILITIES
+   ════════════════════════════════════════════════════════════ */
+@layer utilities {
+
+  /* Section backgrounds */
+  .bg-surface {
+    background-color: var(--bg-surface) !important;
+  }
+
+  /* Story / About */
+  .story-text,
+  .story-text span {
+    color: var(--text-secondary) !important;
+    font-family: 'Inter', sans-serif !important;
+  }
+
+  /* Experience bullets */
+  .exp-content,
+  .exp-content li {
+    color: var(--text-secondary) !important;
+    font-family: 'Inter', sans-serif !important;
+  }
+
+  /* Muted labels */
+  .small-label,
+  .skills-label {
+    color: var(--text-muted) !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif !important;
+  }
+
+  /* Orange accent text */
+  .text-accent {
+    color: var(--accent) !important;
+  }
+
+  /* Display / hero headings — forces Bebas Neue */
+  .font-display {
+    font-family: 'Bebas Neue', sans-serif !important;
+  }
+}
