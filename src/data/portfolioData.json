@@ -81,7 +81,12 @@
         "Added API rate limiting using Upstash",
         "Responsive UI using React"
       ],
-      "tech": ["MongoDB", "Express", "React", "Node"],
+      "tech": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node"
+      ],
       "github": "https://github.com/akashad123/thinkBoardFrontend",
       "live": "https://thinkboardfrontend.onrender.com/"
     },
@@ -94,7 +99,12 @@
         "Reusable React components",
         "Responsive Tailwind layout"
       ],
-      "tech": ["React", "GSAP", "Tailwind", "clsx"],
+      "tech": [
+        "React",
+        "GSAP",
+        "Tailwind",
+        "clsx"
+      ],
       "github": "https://github.com/akashad123/game_landing_page",
       "live": "https://game-landing-page-nu.vercel.app/"
     },
@@ -106,7 +116,11 @@
         "Scroll-triggered GSAP effects",
         "Responsive layouts"
       ],
-      "tech": ["React", "GSAP", "Tailwind"],
+      "tech": [
+        "React",
+        "GSAP",
+        "Tailwind"
+      ],
       "github": "https://github.com/akashad123/gsap_cocktails",
       "live": "https://gsap-cocktails-lovat-iota.vercel.app/"
     },
@@ -118,7 +132,11 @@
         "Smooth GSAP animations",
         "Modular React architecture"
       ],
-      "tech": ["React", "GSAP", "Tailwind"],
+      "tech": [
+        "React",
+        "GSAP",
+        "Tailwind"
+      ],
       "github": "https://github.com/akashad123/portfolio",
       "live": "https://akashad.vercel.app/"
     }
@@ -127,7 +145,7 @@
     {
       "degree": "Master of Computer Applications (MCA)",
       "institution": "Lead College of Management",
-      "duration": "2023 - 2025"
+      "duration": "2025 - 2027"
     },
     {
       "degree": "Bachelor of Computer Applications (BCA)",
